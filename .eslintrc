@@ -9,7 +9,16 @@
 		"require-jsdoc": "off",
 		"object-curly-spacing": "off",
 		"indent": "off",
-		"no-tabs": "off"
+		"no-tabs": "off",
+		"max-len": [
+			"error",
+			{
+				"code": 120,
+				"ignoreStrings": true,
+				"ignoreTemplateLiterals": true,
+				"ignoreComments": true
+			}
+		]
 	},
 	"extends": ["eslint:recommended", "google"]
 }
