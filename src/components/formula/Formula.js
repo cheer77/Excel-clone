@@ -19,4 +19,7 @@ export class Formula extends ExelComponent {
 	onInput(event) {
 		console.log('Formula onInput', event);
 	}
+	onClick(event) {
+		console.log('Formula onClick', event);
+	}
 }
